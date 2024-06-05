@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concordar com o Preço</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <nav class="app-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="chat.html">Chat</a></li>
+        <li><a href="agree_price.html">Concordar Preço</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container mt-5">
+    <div class="price-agreement-form">
+      <h2>Concordar com o Preço da Viagem</h2>
+      <form id="price-agree-form">
+        <div class="form-group">
+          <label for="trip-id">ID da Viagem</label>
+          <input type="text" class="form-control" id="trip-id" placeholder="Digite o ID da Viagem" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Concordar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="app-footer mt-5">
+    <p>&copy; 2024 CARona. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
